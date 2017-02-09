@@ -1,0 +1,24 @@
+{
+  "name": "alexgimunsjoke",
+  "version": "1.0.0",
+  "description": "Gimun's joke skill",
+  "main": "app.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6",
+    "express": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gimunlee/alexaGimunsJoke.git"
+  },
+  "author": "Gimun Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gimunlee/alexaGimunsJoke/issues"
+  },
+  "homepage": "https://github.com/gimunlee/alexaGimunsJoke#readme"
+}
