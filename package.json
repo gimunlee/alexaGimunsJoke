@@ -2,7 +2,7 @@
   "name": "alexgimunsjoke",
   "version": "1.0.0",
   "description": "Gimun's joke skill",
-  "main": "app.js",
+  "main": "src/app.js",
   "dependencies": {
     "alexa-sdk": "^1.0.6",
     "express": "^4.14.1"
@@ -14,7 +14,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
