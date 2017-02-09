@@ -7,6 +7,9 @@
     "alexa-sdk": "^1.0.6",
     "express": "^4.14.1"
   },
+  "alexa": {
+    "applicationId": "amzn1.ask.skill.4d2bd50d-eb22-4e4e-9b0b-249ab8a1a6c7"
+  },
   "engines": {
     "node": "6.9.4",
     "npm": "3.10.x"

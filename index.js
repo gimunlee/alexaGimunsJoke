@@ -10,7 +10,8 @@
 // });
 
 console.log("first of indx.js");
-var Alexa = require('alexa-sdk');
+var AlexaAppServer = require ('alexa-app-server');
+// var Alexa = require('alexa-sdk');
 
 
 var handlers = {
@@ -21,8 +22,15 @@ var handlers = {
         this.emit(':tell', "May I help you?");
     }
 };
-exports.handler = function(event, context, callback) {
-    var alexa = Alexa.handler(event, context);
-    alexa.registerHandlers(handlers);
-    alexa.execute();
-}
+// exports.handler = function(event, context, callback) {
+//     var alexa = Alexa.handler(event, context);
+//     alexa.registerHandlers(handlers);
+//     alexa.execute();
+// }
+
+AlexaAppServer.start({
+    "server_root": "./",
+    port: process.env.PORT,
+    verify: true,
+    debug: false
+});
