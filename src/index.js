@@ -10,7 +10,6 @@
 // });
 
 console.log("first of indx.js");
-
 var Alexa = require('alexa-sdk');
 
 
